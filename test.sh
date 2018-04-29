@@ -16,7 +16,7 @@ test_valid_yaml_syntax () {
 }
 
 test_build_html () {
-    python3 generate_profiles.py -t template.html -o index.html profiles/
+    python generate_profiles.py -t template.html -o index.html profiles/
     echo -e "HTML successfully generated."
 }
 
